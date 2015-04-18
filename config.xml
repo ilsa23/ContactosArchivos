@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.cenet.archivoscontactos"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+        <icon src="imagenes/icono.png" />
+
+        <name>Contactos y Archivos</name>
+
+        <description>
+        Aplicación que utiliza la API para archivos y contactos
+        </description>
+
+        <author href="http://cenet.mx" email="ilze.sarai@gmail.com">
+        Ilse Lopez
+        </author>
+        
+        <gap:plugin name="org.apache.cordova.file" />
+        
+
+    </widget>
